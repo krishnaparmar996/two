@@ -4,12 +4,12 @@ import Form from 'react-bootstrap/Form';
 
 function Search({txt,seTxt}) {
   return (
-    <div>
+    <div  >
        <Form.Control
         type="text"
         id="inputPassword5"
         aria-describedby="passwordHelpBlock"
-       className='my-4 w-100 m-auto'
+       className='my-4 w-100 m-auto  bg-danger-subtle rounded-5 text-success'
        placeholder='SEARCH.......'
         value={txt}
         onChange={(e)=>seTxt(e.target.value)}

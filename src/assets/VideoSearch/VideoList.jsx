@@ -39,7 +39,7 @@ if(debounce){
 
   return (
     <div>
-          <div className='bg-warning p-3'>
+          <div className='p-3 bg-danger-subtle rounded-5'>
       {
         vidArr && vidArr.map((ele)=>{
             return <VideoItem key={ele?.id?.videoId}
@@ -47,7 +47,14 @@ if(debounce){
             setVidId={setVidId}
             />
         })
+        
+        
+        
       }
+      {
+        <h1 className='bg-warning w-auto text-center text-uppercase w-auto rounded-4 fw-bold  text-success'>type in search box </h1>
+      }
+      
     </div>
     </div>
   )
