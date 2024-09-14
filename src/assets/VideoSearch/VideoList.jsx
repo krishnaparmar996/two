@@ -52,7 +52,7 @@ if(debounce){
         
       }
       {
-        <h1 className='bg-warning w-auto text-center text-uppercase w-auto rounded-4 fw-bold  text-success'>type in search box </h1>
+        <h1 className='bg-warning my-3 w-auto text-center text-uppercase w-auto rounded-4 fw-bold  text-success fs-2'>type in search box </h1>
       }
       
     </div>

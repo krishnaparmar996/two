@@ -13,7 +13,7 @@ function Main8() {
     let [vidId,setVidId] = useState(null)
 
   return (
-    <div className='p-3'>
+    <div className='p-3 bg-gradient'>
     <div className="d-flex justify-content-between align-items-center my-4">
         <img height={'70px'} width={'100px'} src=" https://cdn-icons-png.flaticon.com/128/1384/1384060.png" alt="" />
     <Search

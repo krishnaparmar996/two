@@ -6,7 +6,7 @@ function VideoItem({ele,setVidId}) {
     <div>
         <Card 
         onClick={()=>setVidId(ele?.id?.videoId)}
-        className='my-4 bg-black' style={{ width: '100%' }}>
+        className='my-4 ' style={{ width: '100%' }}>
       <Card.Img variant="top" src={ele?.snippet?.thumbnails?.medium?.url} />
       <Card.Body>
         <Card.Title>{ele?.snippet?.title}</Card.Title>

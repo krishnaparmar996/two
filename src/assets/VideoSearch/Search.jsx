@@ -13,7 +13,7 @@ function Search({txt,seTxt}) {
        placeholder='SEARCH.......'
         value={txt}
         onChange={(e)=>seTxt(e.target.value)}
-        
+ 
         />
     </div>
   )
